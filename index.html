@@ -73,6 +73,43 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
 
+    <tr onmouseout="jour1_stop()" onmouseover="jour1_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='jour1_image'>
+            <img src='images_divya/jour1_after.jpg' width="160"></div>
+          <img src='images_divya/jour1_before.jpg' width="160"></div>
+        <script type="text/javascript">
+          function jour1_start() {
+            document.getElementById('jour1_image').style.opacity = "1";
+          }
+
+          function jour1_stop() {
+            document.getElementById('jour1_image').style.opacity = "0";
+          }
+          jour1_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://www.sciencedirect.com/science/article/pii/S2210650222000268" target="_blank">
+          <papertitle>Immuno-inspired management of halls of fame for embodied evolution</papertitle>
+        </a>
+        <br>
+        <strong>Divya D. Kulkarni</strong>,
+        <a href="https://iitg.ac.in/sbnair/" target="_blank">Shivashankar B. Nair</a>
+        <br>
+        <em>Swarm and Evolutionary Computation (Journal) <br>
+         Impact Factor: 10.267</em>, 2022
+        <br>
+        <a href="" target="_blank">Code</a>
+        /
+        <a href="https://www.sciencedirect.com/science/article/pii/S2210650222000268" target="_blank">Paper</a>
+        <p></p>
+        <p>
+        This work proposes a technique to cache the better performing robot controllers in Halls of Fame. Each Hall of Fame is associated with one of the sub regions in the space where the robot is situated. The method proposed does not set the number of controllers apriori but dynamically as per the dynamics of the system.
+        </p>
+      </td>
+    </tr>
 
     <tr onmouseout="cec_stop()" onmouseover="cec_start()" bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
@@ -100,7 +137,7 @@
         <strong>Divya D. Kulkarni</strong>,
         <a href="https://iitg.ac.in/sbnair/" target="_blank">Shivashankar B. Nair</a>
         <br>
-        <em>IEEE Congress on Evolutionary Computation (CORE Rank - B)</em>, 2021
+        <em>IEEE Congress on Evolutionary Computation (CORE Rank - B) <br>  Kraków, Poland</em>, 2021
         <br>
         <a href="">Code</a>
         /
@@ -137,7 +174,7 @@
         <strong>Divya D. Kulkarni</strong>,
         <a href="https://iitg.ac.in/sbnair/" target="_blank">Shivashankar B. Nair</a>
         <br>
-        <em>Neuroevolution at Work, Genetic and Evolutionary Computation Conference (GECCO) - CORE Rank A</em>, 2020
+        <em>Neuroevolution at Work, Genetic and Evolutionary Computation Conference (GECCO) (CORE Rank A) <br> Cancún, Mexico</em>, 2020
         <br>
         <a href="" target="_blank">Code</a>
         /
@@ -149,43 +186,84 @@
       </td>
     </tr>
 
-    <tr onmouseout="jour1_stop()" onmouseover="jour1_start()" bgcolor="#ffffd0">
+    <tr onmouseout="smc_stop()" onmouseover="smc_start()" >
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='jour1_image'>
-            <img src='images_divya/jour1_after.jpg' width="160"></div>
-          <img src='images_divya/jour1_before.jpg' width="160"></div>
+          <div class="two" id='smc_image'>
+            <img src='images_divya/smc_after.jpg' width="160"></div>
+          <img src='images_divya/smc_before.jpg' width="160"></div>
         <script type="text/javascript">
-          function jour1_start() {
-            document.getElementById('jour1_image').style.opacity = "1";
+          function smc_start() {
+            document.getElementById('smc_image').style.opacity = "0";
           }
 
-          function jour1_stop() {
-            document.getElementById('jour1_image').style.opacity = "0";
+          function smc_stop() {
+            document.getElementById('smc_image').style.opacity = "0";
           }
-          jour1_stop()
+          smc_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://www.sciencedirect.com/science/article/pii/S2210650222000268" target="_blank">
-          <papertitle>Immuno-inspired management of halls of fame for embodied evolution</papertitle>
+        <a href="https://ieeexplore.ieee.org/abstract/document/9282830" target="_blank">
+          <papertitle>On Decentralizing Federated Learning</papertitle>
         </a>
         <br>
+        Akul Agrawal, 
         <strong>Divya D. Kulkarni</strong>,
         <a href="https://iitg.ac.in/sbnair/" target="_blank">Shivashankar B. Nair</a>
         <br>
-        <em>Swarm and Evolutionary Computation (Journal)</em>, 2022
+        <em>IEEE International Conference on Systems, Man, and Cybernetics (SMC)  (CORE Rank B) <br>
+        Toronto, Canada</em>, 2020
         <br>
-        <a href="" target="_blank">Code</a>
+        <a href="https://github.com/akulagrawal/Federated-Learning" target="_blank">Code</a>
         /
-        <a href="https://www.sciencedirect.com/science/article/pii/S2210650222000268" target="_blank">Paper</a>
+        <a href="https://ieeexplore.ieee.org/abstract/document/9282830" target="_blank">Paper</a>
         <p></p>
         <p>
-        This work proposes a technique to cache the better performing robot controllers in Halls of Fame. Each Hall of Fame is associated with one of the sub regions in the space where the robot is situated. The method proposed does not set the number of controllers apriori but dynamically as per the dynamics of the system.
+         This work presents an approach to de-centralize Federated Learning using mobile agents coupled with the Federated Averaging (FedAvg) algorithm. A hybrid model that combines both centralized and decentralized approaches has also been presented. Results obtained by running the model on different network topologies indicate that the hybrid version proves to be the better option for an FL implementation.
         </p>
       </td>
     </tr>
-  
+
+    <tr onmouseout="manipal_stop()" onmouseover="manipal_start()" >
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='manipal_image'>
+            <img src='images_divya/manipal_after.jpg' width="160"></div>
+          <img src='images_divya/manipal_before.jpg' width="160"></div>
+        <script type="text/javascript">
+          function manipal_start() {
+            document.getElementById('manipal_image').style.opacity = "1";
+          }
+
+          function manipal_stop() {
+            document.getElementById('manipal_image').style.opacity = "0";
+          }
+          manipal_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/abstract/document/8882907" target="_blank">
+          <papertitle>On Securing Mobile Agents using Blockchain Technology</papertitle>
+        </a>
+        <br>
+        Ishita, 
+        <strong>Divya D. Kulkarni</strong>,
+        Tushar Semwal,
+        <a href="https://iitg.ac.in/sbnair/" target="_blank">Shivashankar B. Nair</a>
+        <br>
+        <em> Second International Conference on Advanced Computational and Communication Paradigms (ICACCP) <br> Gangtok, India</em>, 2019
+        <br>
+        <a href="" target="_blank">Code</a>
+        /
+        <a href="https://ieeexplore.ieee.org/abstract/document/8882907" target="_blank">Paper</a>
+        <p></p>
+        <p>
+         The work proposes an approach that uses a Smart Contract to allocate resources and monitor the execution of the task(s) by a set of mobile agents. The transactions within the blockchain are used to detect the Byzantine mobile agents that could execute unauthorized tasks and inflict losses within a system. Stealthy mobile agents, who are not registered with the Smart Contract, hindering the execution of the task are also contained.
+        </p>
+      </td>
+    </tr>
+
     <tr onmouseout="gec_stop()" onmouseover="gec_start()" >
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -212,7 +290,8 @@
         <strong>Divya D. Kulkarni</strong>,
         <a href="https://iitg.ac.in/sbnair/" target="_blank">Shivashankar B. Nair</a>
         <br>
-        <em>Genetic and Evolutionary Computation Conference (GECCO) - CORE Rank A</em>, 2018
+        <em>Genetic and Evolutionary Computation Conference (GECCO) (CORE Rank A) <br>
+        Kyoto, Japan</em>, 2018
         <br>
         <a href="" target="_blank">Code</a>
         /
@@ -223,6 +302,124 @@
         </p>
       </td>
     </tr>
+
+    <tr onmouseout="df_stop()" onmouseover="df_start()" >
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='df_image'>
+            <img src='images_divya/df_after.jpg' width="160"></div>
+          <img src='images_divya/df_before.jpg' width="160"></div>
+        <script type="text/javascript">
+          function df_start() {
+            document.getElementById('df_image').style.opacity = "0";
+          }
+
+          function df_stop() {
+            document.getElementById('df_image').style.opacity = "0";
+          }
+          df_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10023864" target="_blank">
+          <papertitle>On Embedding a Dataflow Architecture in a Multi-Robot System</papertitle>
+        </a>
+        <br>
+        Menaxi J Bagchi, 
+        <strong>Divya D. Kulkarni</strong>,
+        <a href="https://iitg.ac.in/sbnair/" target="_blank">Shivashankar B. Nair</a>,
+        Pradip K. Das
+        <br>
+        <em>Sixth IEEE International Conference on Robotic Computing (IRC) <br>
+        Naples, Italy</em>, 2022
+        <br>
+        <a href="" target="_blank">Code</a>
+        /
+        <a href="https://ieeexplore.ieee.org/abstract/document/10023864" target="_blank">Paper</a>
+        <p></p>
+        <p>
+        In this work, we propose a mechanism that uses the concept of dataflow computing coupled with mobile agent technology, to ensure that new jobs can be added online with minimal interference to the currently executing jobs. The entire system need not be brought to a standstill because of the addition and execution of the new jobs. The proposed mechanism facilitates simultaneous executions of the new jobs along with the ones currently executing.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="agri_stop()" onmouseover="jp_start()" >
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='jp_image'>
+            <img src='images_divya/jp_after.jpg' width="160"></div>
+          <img src='images_divya/jp_before.jpg' width="160"></div>
+        <script type="text/javascript">
+          function jp_start() {
+            document.getElementById('jp_image').style.opacity = "0";
+          }
+
+          function jp_stop() {
+            document.getElementById('jp_image').style.opacity = "0";
+          }
+          jp_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/abstract/document/9932985" target="_blank">
+          <papertitle>On Decentralizing Federated Reinforcement Learning in Multi-Robot Scenarios</papertitle>
+        </a>
+        <br>
+        Jayprakash S. Nair,
+        <strong>Divya D. Kulkarni</strong>,
+        Ajitem Joshi, Sruthy Suresh
+        <br>
+        <em>7th South-East Europe Design Automation, Computer Engineering, Computer Networks and Social Media Conference (SEEDA-CECNSM) <br>
+        Ioannina, Greece</em>, 2022
+        <br>
+        <a href="" target="_blank">Code</a>
+        /
+        <a href="https://ieeexplore.ieee.org/abstract/document/9932985" target="_blank">Paper</a>
+        <p></p>
+        <p>
+        This work describes a mobile agent based paradigm to decentralize FL in multi-robot scenarios. Using Webots, a popular free open-source robot simulator, and Tartarus, a mobile agent platform, we present a methodology to decentralize federated learning in a set of connected robots. With Webots running on different connected computing systems, we show how mobile agents can perform the task of Decentralized Federated Reinforcement Learning (dFRL). 
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="agri_stop()" onmouseover="agri_start()" >
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='agri_image'>
+            <img src='images_divya/agri_after.jpg' width="160"></div>
+          <img src='images_divya/agri_before.jpg' width="160"></div>
+        <script type="text/javascript">
+          function agri_start() {
+            document.getElementById('jp_image').style.opacity = "0";
+          }
+
+          function agri_stop() {
+            document.getElementById('jp_image').style.opacity = "0";
+          }
+          agri_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://link.springer.com/chapter/10.1007/978-3-030-45293-3_7" target="_blank">
+          <papertitle>Agrilogistics - A Genetic Programming Based Approach</papertitle>
+        </a>
+        <br>
+        <strong>Divya D. Kulkarni</strong>,
+        <a href="https://iitg.ac.in/sbnair/" target="_blank">Shivashankar B. Nair</a>
+        <br>
+        <em>International Conference on Society with Future:Smart and Liveable Cities <br>
+        Braga, Portugal</em>, 2019
+        <br>
+        <a href="" target="_blank">Code</a>
+        /
+        <a href="https://link.springer.com/chapter/10.1007/978-3-030-45293-3_7" target="_blank">Paper</a>
+        <p></p>
+        <p>
+        In this work, we propose an IoT based agrilogistic system coupled with a genetic programming algorithm to ensure fair prices across all the participants within. The system evolves and generates a set of programs that, in turn, generates the selling rate for every participant in the supply chain in a manner that confers fairness.
+        </p>
+      </td>
+    </tr>
+
 
         </tbody></table>
 
